@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 50px;
+}
+.name-style{
+    color: orange;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.top{
+    display: flex;
+    float: left;
+}
+.half-width-2{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 8%;
+}
+.half-width img{
+    width: 90%;
+
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 700;
+    background-image: linear-gradient(45deg, #E75121,#E75121);
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+
+}
+.half-width-1 img{
+    width: 70%;
+}
+.half-width-1{
+    width: 50%;
+    margin-left: 30px;
+}
+.half-width-2{
+    width: 50%;
+    margin-right: 40px;
+    text-align: justify;
+}
+.dream-big{
+    width: 100vw;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+    display: flex;
+}
+.exper{
+    position: relative;
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exper h2{
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 5px 2px 5px green;
+    font-weight: 700;
+}
+
+.pro-level{
+    margin: 25px 30px;
+    width: 45%;
+    border: 2px solid #99918f;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.pro-level:hover{
+    background-color: #dcd7d5;
+    box-shadow: 10px 8px 8px #99918f,
+                -10px -8px 8px #99918f;
+}
+
+.first-level{
+    margin: 25px 40px;
+    width: 45%;
+    border: 2px solid #99918f;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.first-level:hover{
+    background-color: #dcd7d5;
+    box-shadow: 10px 8px 8px #99918f,
+                -10px -8px 8px #99918f;}
+
+footer p{
+    text-align: center;
+    color: #8C817E;
+}
